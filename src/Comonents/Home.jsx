@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Book from "./Book";
 
 
 
@@ -16,12 +17,23 @@ const Home = () => {
     
     ])
 
+    const catFantasy = book.filter(bok=>bok.Category ==='Fantasy')
+    console.log(catFantasy);
+    
+
 
     return (
         <div>
-           h {book.map(bk=><div key={bk.Name}>
-            <h1>{bk.Name}</h1>
-           </div>)}
+          <div>
+        
+          </div>
+         <div className="grid grid-cols-3 gap-4 my-3 mx-4">
+         {book.map(bk=>
+         <div key={bk.Name}>
+            <Book book={bk} />
+           </div>
+        )}
+         </div>
         </div>
     );
 };
