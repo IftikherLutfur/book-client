@@ -3,14 +3,32 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
     return (
-        <div className="flex justify-between text-xl font-semibold bg-orange-400 h-16 py-4 pl-4">
-            <ul className="flex gap-10">
-                <NavLink to='/categories'><li>Categories</li></NavLink>
-                <NavLink to='/brand'><li>Brands</li></NavLink>
-                <NavLink><li>Price Range</li></NavLink>
-              
-            </ul>
+        <div>
+        <header className="p-4 dark:bg-gray-100 dark:text-gray-800">
+	<div className="container flex justify-between h-16 mx-auto md:justify-center md:space-x-8">
+		<ul className="flex">
             
+		<NavLink to='/home'>
+        <li className="flex mt-6">
+				<a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1  ">Home</a>
+			</li>
+        </NavLink>
+			<li className="flex mt-6">
+				<NavLink to='/categories'><a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 dark:border-">Categories</a></NavLink>
+			</li>
+			<li className="flex mt-6">
+				<NavLink to='/brand'><a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 dark:border-">Brand</a></NavLink>
+			</li>
+		</ul>
+		
+		<button title="Button" type="button" className="p-4 md:hidden">
+		<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6 dark:text-gray-800">
+		<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
+			</svg>
+		</button>
+	</div>
+</header>
+        
         </div>
     );
 };

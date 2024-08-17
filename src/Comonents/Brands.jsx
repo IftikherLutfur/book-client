@@ -24,7 +24,7 @@ const Brands = () => {
              <Tabs>
     <TabList>
       <h1 className="text-center font-bold text-xl">Brands</h1>
-     <div className="flex text-center gap-5 ml-[370px]">
+     <div className="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-2 text-center ">
      <Tab><button className="border-2 rounded-md px-4 my-3 bg-blue-400 py-1 text-black border-pink-500 font-bold">All</button></Tab>
      <Tab><button className="border-2 rounded-md px-4 my-3 bg-blue-400 py-1 text-black border-pink-500 font-bold">OnePlus</button></Tab>
      <Tab><button className="border-2 rounded-md px-4 my-3 bg-blue-400 py-1 text-black border-pink-500 font-bold">Samsung</button></Tab>
@@ -36,29 +36,29 @@ const Brands = () => {
     </TabList>
 
     <TabPanel>
-      <div className='mx-10 gap-5 grid grid-cols-3'>
+      <div className='mx-10 gap-5 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1'>
      {phone.map(title=><FilterCard key={title._id} title={title}/>)}
       </div>
     </TabPanel>
     <TabPanel>
-      <div className='mx-10 gap-5 grid grid-cols-3'>
+      <div className='mx-10 gap-5 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1'>
      {onePlus.map(title=><FilterCard key={title._id} title={title}/>)}
       </div>
     </TabPanel>
     <TabPanel>
-      <div className='mx-10 gap-5 grid grid-cols-3'>
+      <div className='mx-10 gap-5 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1'>
      {samsung.map(title=><FilterCard key={title._id} title={title}/>)}
       </div>
     </TabPanel>
 
     <TabPanel>
-    <div className='mx-10 gap-5 grid grid-cols-3'>
+    <div className='mx-10 gap-5 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1'>
      {apple.map(title=><FilterCard key={title._id} title={title}/>)}
      </div>
     </TabPanel>
 
     <TabPanel>
-    <div className='mx-10 gap-5 grid grid-cols-3'>
+    <div className='mx-10 gap-5 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1'>
      {google.map(title=><FilterCard key={title._id} title={title}/>)}
      </div>
     </TabPanel>

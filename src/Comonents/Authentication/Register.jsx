@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { AuthContext } from "./AuthProvider";
 import { useNavigate } from "react-router-dom";
+import axios from "axios";
 
 const Register = () => {
 
@@ -15,6 +16,14 @@ const Register = () => {
 		const info = {name, email, password}
 		console.log(info);
 		 navigate('/home')
+		 axios.post('http://localhost:5000/info', info)
+		 .then(res=>{
+			console.log(res.data);
+		 })
+		 .cath(error=>{
+			console.log(error);
+			
+		 })
 		signUp(email, password)
 		.then(result=>{
 			console.log(result.user);
