@@ -2,19 +2,19 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import 'react-tabs/style/react-tabs.css';
+
 import FilterCard from "./FilterCard";
 
 
 
 const Home = () => {
 
-    const [book,setBook] = useState([]);
+    const [phone,setPhone] = useState([]);
     const [searchTerm, setSearchTerm] = useState('')
     // useEffect(()=>{
-    //     fetch('book.json')
+    //     fetch('phone.json')
     //     .then(res=>res.json())
-    //     .then(data=>setBook(data))
+    //     .then(data=>setPhone(data))
     // },[
     
     // ])
@@ -22,16 +22,18 @@ const Home = () => {
     useEffect(()=>{
         axios.get("http://localhost:5000/books")
         .then(res=>{
-            setBook(res.data)
+            setPhone(res.data)
         })
         .catch(err=>console.log(err)
         )
     },[])
 
 
-    const catFantasy = book.filter(bok=>bok.Category ==='Fantasy')
-    console.log(catFantasy);
-    
+    const flagship = phone.filter(bok=>bok.category ==='Flagship')
+    const budget = phone.filter(bok=>bok.category === 'Budget')
+    const midRange = phone.filter(bok=>bok.category === 'Mid-range')
+    const compact = phone.filter(bok=>bok.category === 'Compact')
+  
 
     const handleSearch = async() =>{
     
@@ -39,10 +41,10 @@ const Home = () => {
         const response = await axios.get('http://localhost:5000/books',{
             params: {search:searchTerm}
         });
-        setBook(response.data)
+        setPhone(response.data)
     } 
     catch(error){
-        console.error("Error fetching book", error)
+        console.error("Error fetching phone", error)
     }
     
     }
@@ -55,7 +57,7 @@ const Home = () => {
           <h1>Search Books by Name</h1>
       <input
         type="text"
-        placeholder="Enter book name"
+        placeholder="Enter phone name"
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
       />
@@ -64,15 +66,44 @@ const Home = () => {
 
           <Tabs>
     <TabList>
-      <Tab>Fantasy</Tab>
-      <Tab>Title 2</Tab>
+      <h1 className="text-center font-bold text-xl">Categories</h1>
+     <div className="flex text-center gap-5 ml-[370px]">
+     <Tab><button className="border-2 rounded-md px-4 my-3 bg-blue-400 py-1 text-black border-pink-500 font-bold">All</button></Tab>
+     <Tab><button className="border-2 rounded-md px-4 my-3 bg-blue-400 py-1 text-black border-pink-500 font-bold">Flagship</button></Tab>
+     <Tab><button className="border-2 rounded-md px-4 my-3 bg-blue-400 py-1 text-black border-pink-500 font-bold">Budget</button></Tab>
+     <Tab><button className="border-2 rounded-md px-4 my-3 bg-blue-400 py-1 text-black border-pink-500 font-bold">Mid-range</button></Tab>
+     <Tab><button className="border-2 rounded-md px-4 my-3 bg-blue-400 py-1 text-black border-pink-500 font-bold">Compact</button></Tab>
+     </div>
+
     </TabList>
 
     <TabPanel>
-     {catFantasy.map(title=><FilterCard key={title.id} title={title}/>)}
+      <div className='mx-10 gap-5 grid grid-cols-3'>
+     {phone.map(title=><FilterCard key={title._id} title={title}/>)}
+      </div>
     </TabPanel>
     <TabPanel>
-      <h2>Any content 2</h2>
+      <div className='mx-10 gap-5 grid grid-cols-3'>
+     {flagship.map(title=><FilterCard key={title._id} title={title}/>)}
+      </div>
+    </TabPanel>
+
+    <TabPanel>
+    <div className='mx-10 gap-5 grid grid-cols-3'>
+     {budget.map(title=><FilterCard key={title._id} title={title}/>)}
+     </div>
+    </TabPanel>
+
+    <TabPanel>
+    <div className='mx-10 gap-5 grid grid-cols-3'>
+     {midRange.map(title=><FilterCard key={title._id} title={title}/>)}
+     </div>
+    </TabPanel>
+
+    <TabPanel>
+    <div className='mx-10 gap-5 grid grid-cols-3'>
+     {compact.map(title=><FilterCard key={title._id} title={title}/>)}
+     </div>
     </TabPanel>
   </Tabs>
 

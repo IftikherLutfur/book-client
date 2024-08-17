@@ -10,7 +10,7 @@ import Home from "./Comonents/Home";
       element: <Root/>,
       children:[
         {
-            path:'/',
+            path:'/categories',
             element:<Home/>
         }
       ]

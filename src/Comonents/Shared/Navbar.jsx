@@ -1,16 +1,16 @@
+import { NavLink } from "react-router-dom";
 
 
 const Navbar = () => {
     return (
         <div className="flex justify-between text-xl font-semibold bg-orange-400 h-16 py-4 pl-4">
             <ul className="flex gap-10">
-                <li>Home</li>
-                <li>Products</li>
+                <NavLink><li>Categories</li></NavLink>
+                <NavLink><li>Brands</li></NavLink>
+                <NavLink><li>Price Range</li></NavLink>
+              
             </ul>
-            <ul className="flex gap-10 pr-4">
-                <li>Name</li>
-                <li>Image</li>
-            </ul>
+            
         </div>
     );
 };

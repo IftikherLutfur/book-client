@@ -1,185 +1,321 @@
-[
-    {
-        "Name": "To Kill a Mockingbird",
-        "Image": "https://example.com/images/to-kill-a-mockingbird.jpg",
-        "Brand": "Harper Perennial",
-        "Category": "Fiction",
-        "Price": 9.99,
-        "Author": "Harper Lee",
-        "ISBN": "9780061120084",
-        "Publisher": "HarperCollins",
-        "PublishedDate": "1960-07-11",
-        "Ratings": 4.8,
-        "Description": "A gripping, heart-wrenching, and wholly remarkable tale of coming-of-age in a South poisoned by virulent prejudice."
-    },
-    {
-        "Name": "1984",
-        "Image": "https://example.com/images/1984.jpg",
-        "Brand": "Signet Classic",
-        "Category": "Dystopian",
-        "Price": 7.99,
-        "Author": "George Orwell",
-        "ISBN": "9780451524935",
-        "Publisher": "Penguin Group",
-        "PublishedDate": "1949-06-08",
-        "Ratings": 4.7,
-        "Description": "A novel about the dangers of totalitarianism, 1984 presents a dystopian future under a totalitarian regime."
-    },
-    {
-        "Name": "Pride and Prejudice",
-        "Image": "https://example.com/images/pride-and-prejudice.jpg",
-        "Brand": "Penguin Classics",
-        "Category": "Romance",
-        "Price": 6.99,
-        "Author": "Jane Austen",
-        "ISBN": "9780141439518",
-        "Publisher": "Penguin Books",
-        "PublishedDate": "1813-01-28",
-        "Ratings": 4.5,
-        "Description": "One of the most universally loved and admired English novels, Pride and Prejudice is a sparkling comedy of manners."
-    },
-    {
-        "Name": "The Great Gatsby",
-        "Image": "https://example.com/images/the-great-gatsby.jpg",
-        "Brand": "Scribner",
-        "Category": "Classic",
-        "Price": 10.99,
-        "Author": "F. Scott Fitzgerald",
-        "ISBN": "9780743273565",
-        "Publisher": "Scribner",
-        "PublishedDate": "1925-04-10",
-        "Ratings": 4.4,
-        "Description": "A portrait of the Jazz Age in all of its decadence and excess, Gatsby captured the spirit of the author's generation."
-    },
-    {
-        "Name": "The Catcher in the Rye",
-        "Image": "https://example.com/images/the-catcher-in-the-rye.jpg",
-        "Brand": "Little, Brown and Company",
-        "Category": "Literary Fiction",
-        "Price": 8.99,
-        "Author": "J.D. Salinger",
-        "ISBN": "9780316769488",
-        "Publisher": "Little, Brown and Company",
-        "PublishedDate": "1951-07-16",
-        "Ratings": 4.3,
-        "Description": "A novel about teenage rebellion and angst, The Catcher in the Rye is a classic coming-of-age story."
-    },
-    {
-        "Name": "Moby-Dick",
-        "Image": "https://example.com/images/moby-dick.jpg",
-        "Brand": "Penguin Classics",
-        "Category": "Adventure",
-        "Price": 11.99,
-        "Author": "Herman Melville",
-        "ISBN": "9780142437247",
-        "Publisher": "Penguin Books",
-        "PublishedDate": "1851-10-18",
-        "Ratings": 4.0,
-        "Description": "The voyage of the whaling ship Pequod, led by Captain Ahab who is intent on hunting the white whale, Moby-Dick."
-    },
-    {
-        "Name": "War and Peace",
-        "Image": "https://example.com/images/war-and-peace.jpg",
-        "Brand": "Vintage",
-        "Category": "Historical Fiction",
-        "Price": 15.99,
-        "Author": "Leo Tolstoy",
-        "ISBN": "9781400079988",
-        "Publisher": "Vintage Books",
-        "PublishedDate": "1869-01-01",
-        "Ratings": 4.7,
-        "Description": "A sweeping epic of Russian society during the Napoleonic era, War and Peace is a masterpiece of historical fiction."
-    },
-    {
-        "Name": "The Odyssey",
-        "Image": "https://example.com/images/the-odyssey.jpg",
-        "Brand": "Penguin Classics",
-        "Category": "Epic",
-        "Price": 9.99,
-        "Author": "Homer",
-        "ISBN": "9780140268867",
-        "Publisher": "Penguin Books",
-        "PublishedDate": "-800",
-        "Ratings": 4.2,
-        "Description": "An epic poem that tells the story of Odysseus's ten-year journey home after the Trojan War."
-    },
-    {
-        "Name": "Crime and Punishment",
-        "Image": "https://example.com/images/crime-and-punishment.jpg",
-        "Brand": "Penguin Classics",
-        "Category": "Philosophical Fiction",
-        "Price": 12.99,
-        "Author": "Fyodor Dostoevsky",
-        "ISBN": "9780140449136",
-        "Publisher": "Penguin Books",
-        "PublishedDate": "1866-01-01",
-        "Ratings": 4.6,
-        "Description": "A psychological drama that explores the moral dilemmas of crime, guilt, and redemption."
-    },
-    {
-        "Name": "The Lord of the Rings",
-        "Image": "https://example.com/images/the-lord-of-the-rings.jpg",
-        "Brand": "Mariner Books",
-        "Category": "Fantasy",
-        "Price": 29.99,
-        "Author": "J.R.R. Tolkien",
-        "ISBN": "9780618640157",
-        "Publisher": "Houghton Mifflin Harcourt",
-        "PublishedDate": "1954-07-29",
-        "Ratings": 4.9,
-        "Description": "An epic fantasy trilogy that follows the journey to destroy the One Ring and save Middle-earth."
-    },
-    {
-        "Name": "Jane Eyre",
-        "Image": "https://example.com/images/jane-eyre.jpg",
-        "Brand": "Penguin Classics",
-        "Category": "Gothic Fiction",
-        "Price": 7.99,
-        "Author": "Charlotte Brontë",
-        "ISBN": "9780141441146",
-        "Publisher": "Penguin Books",
-        "PublishedDate": "1847-10-16",
-        "Ratings": 4.7,
-        "Description": "A novel that follows the experiences of Jane Eyre, an orphaned girl who becomes a governess and falls in love with her employer."
-    },
-    {
-        "Name": "The Hobbit",
-        "Image": "https://example.com/images/the-hobbit.jpg",
-        "Brand": "Mariner Books",
-        "Category": "Fantasy",
-        "Price": 10.99,
-        "Author": "J.R.R. Tolkien",
-        "ISBN": "9780547928227",
-        "Publisher": "Houghton Mifflin Harcourt",
-        "PublishedDate": "1937-09-21",
-        "Ratings": 4.8,
-        "Description": "The prelude to The Lord of the Rings, The Hobbit tells the story of Bilbo Baggins's adventure to reclaim a lost kingdom."
-    },
-    {
-        "Name": "Brave New World",
-        "Image": "https://example.com/images/brave-new-world.jpg",
-        "Brand": "Harper Perennial",
-        "Category": "Dystopian",
-        "Price": 9.99,
-        "Author": "Aldous Huxley",
-        "ISBN": "9780060850524",
-        "Publisher": "HarperCollins",
-        "PublishedDate": "1932-01-01",
-        "Ratings": 4.5,
-        "Description": "A dystopian novel set in a future world where technology and conditioning dictate human behavior."
-    },
-    {
-        "Name": "The Divine Comedy",
-        "Image": "https://example.com/images/the-divine-comedy.jpg",
-        "Brand": "Penguin Classics",
-        "Category": "Epic Poetry",
-        "Price": 14.99,
-        "Author": "Dante Alighieri",
-        "ISBN": "9780142437223",
-        "Publisher": "Penguin Books",
-        "PublishedDate": "1320-01-01",
-        "Ratings": 4.6,
-        "Description": "An epic poem that takes the reader on a journey through Hell, Purgatory, and Heaven."
-    }
-    
-    ]
+[ {
+    "name": "Galaxy S21",
+    "category": "Flagship",
+    "brand": "Samsung",
+    "price": 799,
+    "storage": "128GB",
+    "battery": "4000mAh"
+  },
+  {
+    "name": "Galaxy S21+",
+    "category": "Flagship",
+    "brand": "Samsung",
+    "price": 999,
+    "storage": "256GB",
+    "battery": "4800mAh"
+  },
+  {
+    "name": "Galaxy S21 Ultra",
+    "category": "Flagship",
+    "brand": "Samsung",
+    "price": 1199,
+    "storage": "512GB",
+    "battery": "5000mAh"
+  },
+  {
+    "name": "Galaxy A52",
+    "category": "Mid-range",
+    "brand": "Samsung",
+    "price": 349,
+    "storage": "128GB",
+    "battery": "4500mAh"
+  },
+  {
+    "name": "Galaxy A72",
+    "category": "Mid-range",
+    "brand": "Samsung",
+    "price": 429,
+    "storage": "256GB",
+    "battery": "5000mAh"
+  },
+  {
+    "name": "Galaxy M31",
+    "category": "Budget",
+    "brand": "Samsung",
+    "price": 199,
+    "storage": "128GB",
+    "battery": "6000mAh"
+  },
+  {
+    "name": "Galaxy M51",
+    "category": "Budget",
+    "brand": "Samsung",
+    "price": 299,
+    "storage": "128GB",
+    "battery": "7000mAh"
+  },
+  {
+    "name": "Galaxy Z Fold 3",
+    "category": "Foldable",
+    "brand": "Samsung",
+    "price": 1799,
+    "storage": "256GB",
+    "battery": "4400mAh"
+  },
+  {
+    "name": "Galaxy Z Flip 3",
+    "category": "Foldable",
+    "brand": "Samsung",
+    "price": 999,
+    "storage": "128GB",
+    "battery": "3300mAh"
+  },
+  {
+    "name": "Galaxy Note 20",
+    "category": "Flagship",
+    "brand": "Samsung",
+    "price": 949,
+    "storage": "256GB",
+    "battery": "4300mAh"
+  },
+  {
+    "name": "iPhone 12",
+    "category": "Flagship",
+    "brand": "Apple",
+    "price": 799,
+    "storage": "64GB",
+    "battery": "2815mAh"
+  },
+  {
+    "name": "iPhone 12 Mini",
+    "category": "Compact",
+    "brand": "Apple",
+    "price": 699,
+    "storage": "64GB",
+    "battery": "2227mAh"
+  },
+  {
+    "name": "iPhone 12 Pro",
+    "category": "Flagship",
+    "brand": "Apple",
+    "price": 999,
+    "storage": "128GB",
+    "battery": "2815mAh"
+  },
+  {
+    "name": "iPhone 12 Pro Max",
+    "category": "Flagship",
+    "brand": "Apple",
+    "price": 1099,
+    "storage": "128GB",
+    "battery": "3687mAh"
+  },
+  {
+    "name": "iPhone SE (2020)",
+    "category": "Budget",
+    "brand": "Apple",
+    "price": 399,
+    "storage": "64GB",
+    "battery": "1821mAh"
+  },
+  {
+    "name": "iPhone 11",
+    "category": "Mid-range",
+    "brand": "Apple",
+    "price": 599,
+    "storage": "64GB",
+    "battery": "3110mAh"
+  },
+  {
+    "name": "iPhone XR",
+    "category": "Mid-range",
+    "brand": "Apple",
+    "price": 499,
+    "storage": "64GB",
+    "battery": "2942mAh"
+  },
+  {
+    "name": "iPhone 11 Pro",
+    "category": "Flagship",
+    "brand": "Apple",
+    "price": 899,
+    "storage": "64GB",
+    "battery": "3046mAh"
+  },
+  {
+    "name": "iPhone 11 Pro Max",
+    "category": "Flagship",
+    "brand": "Apple",
+    "price": 999,
+    "storage": "64GB",
+    "battery": "3969mAh"
+  },
+  {
+    "name": "iPhone 13",
+    "category": "Flagship",
+    "brand": "Apple",
+    "price": 799,
+    "storage": "128GB",
+    "battery": "3227mAh"
+  },
+  {
+    "name": "Pixel 5",
+    "category": "Flagship",
+    "brand": "Google",
+    "price": 699,
+    "storage": "128GB",
+    "battery": "4080mAh"
+  },
+  {
+    "name": "Pixel 4a",
+    "category": "Budget",
+    "brand": "Google",
+    "price": 349,
+    "storage": "128GB",
+    "battery": "3140mAh"
+  },
+  {
+    "name": "Pixel 4a 5G",
+    "category": "Mid-range",
+    "brand": "Google",
+    "price": 499,
+    "storage": "128GB",
+    "battery": "3885mAh"
+  },
+  {
+    "name": "Pixel 6",
+    "category": "Flagship",
+    "brand": "Google",
+    "price": 599,
+    "storage": "128GB",
+    "battery": "4614mAh"
+  },
+  {
+    "name": "Pixel 6 Pro",
+    "category": "Flagship",
+    "brand": "Google",
+    "price": 899,
+    "storage": "128GB",
+    "battery": "5003mAh"
+  },
+  {
+    "name": "Pixel 5a 5G",
+    "category": "Mid-range",
+    "brand": "Google",
+    "price": 449,
+    "storage": "128GB",
+    "battery": "4680mAh"
+  },
+  {
+    "name": "Pixel 3 XL",
+    "category": "Mid-range",
+    "brand": "Google",
+    "price": 399,
+    "storage": "64GB",
+    "battery": "3430mAh"
+  },
+  {
+    "name": "Pixel 4 XL",
+    "category": "Flagship",
+    "brand": "Google",
+    "price": 799,
+    "storage": "64GB",
+    "battery": "3700mAh"
+  },
+  {
+    "name": "Pixel 3a",
+    "category": "Budget",
+    "brand": "Google",
+    "price": 299,
+    "storage": "64GB",
+    "battery": "3000mAh"
+  },
+  {
+    "name": "Pixel 4",
+    "category": "Compact",
+    "brand": "Google",
+    "price": 699,
+    "storage": "64GB",
+    "battery": "2800mAh"
+  },
+  {
+    "name": "OnePlus 9",
+    "category": "Flagship",
+    "brand": "OnePlus",
+    "price": 729,
+    "storage": "128GB",
+    "battery": "4500mAh"
+  },
+  {
+    "name": "OnePlus 9 Pro",
+    "category": "Flagship",
+    "brand": "OnePlus",
+    "price": 969,
+    "storage": "256GB",
+    "battery": "4500mAh"
+  },
+  {
+    "name": "OnePlus Nord",
+    "category": "Mid-range",
+    "brand": "OnePlus",
+    "price": 399,
+    "storage": "128GB",
+    "battery": "4115mAh"
+  },
+  {
+    "name": "OnePlus 8T",
+    "category": "Flagship",
+    "brand": "OnePlus",
+    "price": 599,
+    "storage": "128GB",
+    "battery": "4500mAh"
+  },
+  {
+    "name": "OnePlus 7T",
+    "category": "Mid-range",
+    "brand": "OnePlus",
+    "price": 499,
+    "storage": "128GB",
+    "battery": "3800mAh"
+  },
+  {
+    "name": "OnePlus 7 Pro",
+    "category": "Flagship",
+    "brand": "OnePlus",
+    "price": 669,
+    "storage": "256GB",
+    "battery": "4000mAh"
+  },
+  {
+    "name": "OnePlus 6T",
+    "category": "Mid-range",
+    "brand": "OnePlus",
+    "price": 549,
+    "storage": "128GB",
+    "battery": "3700mAh"
+  },
+  {
+    "name": "OnePlus 8 Pro",
+    "category": "Flagship",
+    "brand": "OnePlus",
+    "price": 799,
+    "storage": "256GB",
+    "battery": "4510mAh"
+  },
+  {
+    "name": "OnePlus Nord 2",
+    "category": "Mid-range",
+    "brand": "OnePlus",
+    "price": 399,
+    "storage": "128GB",
+    "battery": "4500mAh"
+  },
+  {
+    "name": "OnePlus Nord CE",
+    "category": "Budget",
+    "brand": "OnePlus",
+    "price": 299,
+    "storage": "128GB",
+    "battery": "4500mAh"
+  }
+]
