@@ -2,7 +2,7 @@
     "name": "Galaxy S21",
     "category": "Flagship",
     "brand": "Samsung",
-    "price": 799,
+    "price": 19000,
     "storage": "128GB",
     "battery": "4000mAh"
   },
@@ -10,7 +10,7 @@
     "name": "Galaxy S21+",
     "category": "Flagship",
     "brand": "Samsung",
-    "price": 999,
+    "price": 70000,
     "storage": "256GB",
     "battery": "4800mAh"
   },
@@ -18,7 +18,7 @@
     "name": "Galaxy S21 Ultra",
     "category": "Flagship",
     "brand": "Samsung",
-    "price": 1199,
+    "price": 90000,
     "storage": "512GB",
     "battery": "5000mAh"
   },
@@ -26,7 +26,7 @@
     "name": "Galaxy A52",
     "category": "Mid-range",
     "brand": "Samsung",
-    "price": 349,
+    "price": 15000,
     "storage": "128GB",
     "battery": "4500mAh"
   },
@@ -34,7 +34,7 @@
     "name": "Galaxy A72",
     "category": "Mid-range",
     "brand": "Samsung",
-    "price": 429,
+    "price": 28000,
     "storage": "256GB",
     "battery": "5000mAh"
   },
@@ -42,7 +42,7 @@
     "name": "Galaxy M31",
     "category": "Budget",
     "brand": "Samsung",
-    "price": 199,
+    "price": 50000,
     "storage": "128GB",
     "battery": "6000mAh"
   },
@@ -50,7 +50,7 @@
     "name": "Galaxy M51",
     "category": "Budget",
     "brand": "Samsung",
-    "price": 299,
+    "price": 10000,
     "storage": "128GB",
     "battery": "7000mAh"
   },
@@ -58,7 +58,7 @@
     "name": "Galaxy Z Fold 3",
     "category": "Foldable",
     "brand": "Samsung",
-    "price": 1799,
+    "price": 120999,
     "storage": "256GB",
     "battery": "4400mAh"
   },
@@ -66,7 +66,7 @@
     "name": "Galaxy Z Flip 3",
     "category": "Foldable",
     "brand": "Samsung",
-    "price": 999,
+    "price": 10000,
     "storage": "128GB",
     "battery": "3300mAh"
   },
@@ -74,7 +74,7 @@
     "name": "Galaxy Note 20",
     "category": "Flagship",
     "brand": "Samsung",
-    "price": 949,
+    "price": 49000,
     "storage": "256GB",
     "battery": "4300mAh"
   },
@@ -82,7 +82,7 @@
     "name": "iPhone 12",
     "category": "Flagship",
     "brand": "Apple",
-    "price": 799,
+    "price": 90000,
     "storage": "64GB",
     "battery": "2815mAh"
   },
@@ -90,7 +90,7 @@
     "name": "iPhone 12 Mini",
     "category": "Compact",
     "brand": "Apple",
-    "price": 699,
+    "price": 80000,
     "storage": "64GB",
     "battery": "2227mAh"
   },
@@ -98,7 +98,7 @@
     "name": "iPhone 12 Pro",
     "category": "Flagship",
     "brand": "Apple",
-    "price": 999,
+    "price": 96000,
     "storage": "128GB",
     "battery": "2815mAh"
   },
@@ -106,7 +106,7 @@
     "name": "iPhone 12 Pro Max",
     "category": "Flagship",
     "brand": "Apple",
-    "price": 1099,
+    "price": 98000,
     "storage": "128GB",
     "battery": "3687mAh"
   },
@@ -114,7 +114,7 @@
     "name": "iPhone SE (2020)",
     "category": "Budget",
     "brand": "Apple",
-    "price": 399,
+    "price": 67000,
     "storage": "64GB",
     "battery": "1821mAh"
   },
@@ -122,7 +122,7 @@
     "name": "iPhone 11",
     "category": "Mid-range",
     "brand": "Apple",
-    "price": 599,
+    "price": 70000,
     "storage": "64GB",
     "battery": "3110mAh"
   },
@@ -130,7 +130,7 @@
     "name": "iPhone XR",
     "category": "Mid-range",
     "brand": "Apple",
-    "price": 499,
+    "price": 50000,
     "storage": "64GB",
     "battery": "2942mAh"
   },
@@ -138,7 +138,7 @@
     "name": "iPhone 11 Pro",
     "category": "Flagship",
     "brand": "Apple",
-    "price": 899,
+    "price": 89000,
     "storage": "64GB",
     "battery": "3046mAh"
   },
@@ -146,7 +146,7 @@
     "name": "iPhone 11 Pro Max",
     "category": "Flagship",
     "brand": "Apple",
-    "price": 999,
+    "price": 100000,
     "storage": "64GB",
     "battery": "3969mAh"
   },
@@ -154,7 +154,7 @@
     "name": "iPhone 13",
     "category": "Flagship",
     "brand": "Apple",
-    "price": 799,
+    "price": 120000,
     "storage": "128GB",
     "battery": "3227mAh"
   },
@@ -162,7 +162,7 @@
     "name": "Pixel 5",
     "category": "Flagship",
     "brand": "Google",
-    "price": 699,
+    "price": 10000,
     "storage": "128GB",
     "battery": "4080mAh"
   },
@@ -170,7 +170,7 @@
     "name": "Pixel 4a",
     "category": "Budget",
     "brand": "Google",
-    "price": 349,
+    "price": 10000,
     "storage": "128GB",
     "battery": "3140mAh"
   },
@@ -178,7 +178,7 @@
     "name": "Pixel 4a 5G",
     "category": "Mid-range",
     "brand": "Google",
-    "price": 499,
+    "price": 10000,
     "storage": "128GB",
     "battery": "3885mAh"
   },
@@ -186,7 +186,7 @@
     "name": "Pixel 6",
     "category": "Flagship",
     "brand": "Google",
-    "price": 599,
+    "price": 10000,
     "storage": "128GB",
     "battery": "4614mAh"
   },
@@ -194,7 +194,7 @@
     "name": "Pixel 6 Pro",
     "category": "Flagship",
     "brand": "Google",
-    "price": 899,
+    "price": 10000,
     "storage": "128GB",
     "battery": "5003mAh"
   },
@@ -202,7 +202,7 @@
     "name": "Pixel 5a 5G",
     "category": "Mid-range",
     "brand": "Google",
-    "price": 449,
+    "price": 10000,
     "storage": "128GB",
     "battery": "4680mAh"
   },
@@ -210,7 +210,7 @@
     "name": "Pixel 3 XL",
     "category": "Mid-range",
     "brand": "Google",
-    "price": 399,
+    "price": 10000,
     "storage": "64GB",
     "battery": "3430mAh"
   },
@@ -218,7 +218,7 @@
     "name": "Pixel 4 XL",
     "category": "Flagship",
     "brand": "Google",
-    "price": 799,
+    "price": 10000,
     "storage": "64GB",
     "battery": "3700mAh"
   },
@@ -226,7 +226,7 @@
     "name": "Pixel 3a",
     "category": "Budget",
     "brand": "Google",
-    "price": 299,
+    "price": 10000,
     "storage": "64GB",
     "battery": "3000mAh"
   },
@@ -234,7 +234,7 @@
     "name": "Pixel 4",
     "category": "Compact",
     "brand": "Google",
-    "price": 699,
+    "price": 10000,
     "storage": "64GB",
     "battery": "2800mAh"
   },
@@ -242,7 +242,7 @@
     "name": "OnePlus 9",
     "category": "Flagship",
     "brand": "OnePlus",
-    "price": 729,
+    "price": 10000,
     "storage": "128GB",
     "battery": "4500mAh"
   },
@@ -250,7 +250,7 @@
     "name": "OnePlus 9 Pro",
     "category": "Flagship",
     "brand": "OnePlus",
-    "price": 969,
+    "price": 10000,
     "storage": "256GB",
     "battery": "4500mAh"
   },
@@ -258,7 +258,7 @@
     "name": "OnePlus Nord",
     "category": "Mid-range",
     "brand": "OnePlus",
-    "price": 399,
+    "price": 10000,
     "storage": "128GB",
     "battery": "4115mAh"
   },
@@ -266,7 +266,7 @@
     "name": "OnePlus 8T",
     "category": "Flagship",
     "brand": "OnePlus",
-    "price": 599,
+    "price": 10000,
     "storage": "128GB",
     "battery": "4500mAh"
   },
@@ -274,7 +274,7 @@
     "name": "OnePlus 7T",
     "category": "Mid-range",
     "brand": "OnePlus",
-    "price": 499,
+    "price": 10000,
     "storage": "128GB",
     "battery": "3800mAh"
   },
@@ -282,7 +282,7 @@
     "name": "OnePlus 7 Pro",
     "category": "Flagship",
     "brand": "OnePlus",
-    "price": 669,
+    "price": 10000,
     "storage": "256GB",
     "battery": "4000mAh"
   },
@@ -290,7 +290,7 @@
     "name": "OnePlus 6T",
     "category": "Mid-range",
     "brand": "OnePlus",
-    "price": 549,
+    "price": 10000,
     "storage": "128GB",
     "battery": "3700mAh"
   },
@@ -298,7 +298,7 @@
     "name": "OnePlus 8 Pro",
     "category": "Flagship",
     "brand": "OnePlus",
-    "price": 799,
+    "price": 10000,
     "storage": "256GB",
     "battery": "4510mAh"
   },
@@ -306,7 +306,7 @@
     "name": "OnePlus Nord 2",
     "category": "Mid-range",
     "brand": "OnePlus",
-    "price": 399,
+    "price": 10000,
     "storage": "128GB",
     "battery": "4500mAh"
   },
@@ -314,7 +314,7 @@
     "name": "OnePlus Nord CE",
     "category": "Budget",
     "brand": "OnePlus",
-    "price": 299,
+    "price": 10000,
     "storage": "128GB",
     "battery": "4500mAh"
   }

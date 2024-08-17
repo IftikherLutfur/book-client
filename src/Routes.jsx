@@ -4,6 +4,8 @@ import {
 import Root from "./Root";
 import Home from "./Comonents/Home";
 import Register from "./Comonents/Authentication/Register";
+import Homies from "./Comonents/Homies";
+import Brands from "./Comonents/Brands";
 
   const router = createBrowserRouter([
     {
@@ -18,6 +20,14 @@ import Register from "./Comonents/Authentication/Register";
         {
             path:'/categories',
             element:<Home/>
+        },
+        {
+          path:'/home',
+          element:<Homies/>
+        },
+        {
+          path:'/brand',
+          element:<Brands/>
         }
       ]
     },

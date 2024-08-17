@@ -1,13 +1,45 @@
+import { useContext } from "react";
+import { AuthContext } from "./AuthProvider";
+import { useNavigate } from "react-router-dom";
 
 const Register = () => {
+
+	const {signUp} = useContext(AuthContext)
+     const navigate = useNavigate();
+	const handleForRegister = (e)=>{
+		e.preventDefault()
+		const form = e.target;
+		const name = form.name.value;
+		const email = form.email.value;
+		const password = form.password.value;
+		const info = {name, email, password}
+		console.log(info);
+		 navigate('/home')
+		signUp(email, password)
+		.then(result=>{
+			console.log(result.user);
+		})
+		.catch(err=>{
+			console.log(err);
+			
+		})
+
+		
+	}
+
+
     return (
         <div>
             <div className="mx-96 my-5 p-8 space-y-3 rounded-xl dark:bg-gray-50 dark:text-gray-800">
 	<h1 className="text-2xl font-bold text-center">Login</h1>
-	<form noValidate="" action="" className="space-y-6">
+	<form onSubmit={handleForRegister} className="space-y-6">
 		<div className="space-y-1 text-sm">
-			<label htmlFor="username" className="block dark:text-gray-600">Username</label>
-			<input type="text" name="username" id="username" placeholder="Username" className="w-full px-4 py-3 rounded-md dark:border-gray-300 dark:bg-gray-50 dark:text-gray-800 focus:dark:border-violet-600" />
+			<label htmlFor="name" className="block dark:text-gray-600">Name</label>
+			<input type="text" name="name" id="username" placeholder="Username" className="w-full px-4 py-3 rounded-md dark:border-gray-300 dark:bg-gray-50 dark:text-gray-800 focus:dark:border-violet-600" />
+		</div>
+		<div className="space-y-1 text-sm">
+			<label htmlFor="name" className="block dark:text-gray-600">Email</label>
+			<input type="email" name="email" id="username" placeholder="Username" className="w-full px-4 py-3 rounded-md dark:border-gray-300 dark:bg-gray-50 dark:text-gray-800 focus:dark:border-violet-600" />
 		</div>
 		<div className="space-y-1 text-sm">
 			<label htmlFor="password" className="block dark:text-gray-600">Password</label>
@@ -40,7 +72,7 @@ const Register = () => {
 			</svg>
 		</button>
 	</div>
-	<p className="text-xs text-center sm:px-6 dark:text-gray-600">Don't have an account?
+	<p className="text-xs text-center sm:px-6 dark:text-gray-600">Don= not have an account?
 		<a rel="noopener noreferrer" href="#" className="underline dark:text-gray-800">Sign up</a>
 	</p>
 </div>
