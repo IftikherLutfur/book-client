@@ -2,6 +2,9 @@
 
 const Book = ({book}) => {
     
+
+
+
     return (
         <div>
             <div className="flex max-w-md overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
@@ -40,6 +43,7 @@ const Book = ({book}) => {
         </div>
     </div>
 </div>
+
         </div>
     );
 };
