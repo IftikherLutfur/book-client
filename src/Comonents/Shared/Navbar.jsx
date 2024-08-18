@@ -19,6 +19,9 @@ const Navbar = () => {
 			<li className="flex mt-6">
 				<NavLink to='/brand'><a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 dark:border-">Brand</a></NavLink>
 			</li>
+			<li className="flex mt-6">
+				<NavLink to='/Sorting'><a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 dark:border-">Price Range</a></NavLink>
+			</li>
 		</ul>
 		
 		<button title="Button" type="button" className="p-4 md:hidden">

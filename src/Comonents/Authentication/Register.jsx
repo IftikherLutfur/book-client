@@ -16,7 +16,7 @@ const Register = () => {
 		const info = {name, email, password}
 		console.log(info);
 		 navigate('/home')
-		 axios.post('http://localhost:5000/info', info)
+		 axios.post('https://book-server-orpin.vercel.app/info', info)
 		 .then(res=>{
 			console.log(res.data);
 		 })

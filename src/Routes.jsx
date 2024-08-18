@@ -6,6 +6,7 @@ import Home from "./Comonents/Home";
 import Register from "./Comonents/Authentication/Register";
 import Homies from "./Comonents/Homies";
 import Brands from "./Comonents/Brands";
+import Sorting from './Comonents/Sorting'
 
   const router = createBrowserRouter([
     {
@@ -28,6 +29,10 @@ import Brands from "./Comonents/Brands";
         {
           path:'/brand',
           element:<Brands/>
+        },
+        {
+          path:"/sorting",
+          element:<Sorting/>
         }
       ]
     },

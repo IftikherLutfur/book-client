@@ -20,7 +20,7 @@ const Home = () => {
     // ])
 
     useEffect(()=>{
-        axios.get("http://localhost:5000/books")
+        axios.get("https://book-server-orpin.vercel.app/books")
         .then(res=>{
             setPhone(res.data)
         })

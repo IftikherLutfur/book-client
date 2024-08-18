@@ -1,122 +1,138 @@
-[ {
+[
+  {
     "name": "Galaxy S21",
     "category": "Flagship",
     "brand": "Samsung",
-    "price": 19000,
+    "price": 90000,
     "storage": "128GB",
-    "battery": "4000mAh"
+    "battery": "4000mAh",
+    "image": "https://images-cdn.ubuy.co.in/65790c8b67206a7baf434473-samsung-galaxy-s21-plus-5g-128-256gb.jpg"
   },
   {
     "name": "Galaxy S21+",
     "category": "Flagship",
     "brand": "Samsung",
-    "price": 70000,
+    "price": 100000,
     "storage": "256GB",
-    "battery": "4800mAh"
+    "battery": "4800mAh",
+    "image": "https://i5.walmartimages.com/seo/Like-New-Samsung-Galaxy-S21-5G-128GB-G996U-Unlocked_f0f2c7a0-98ac-46b2-89cf-dd1d1fafa23f.b6c68016f133a95c38cddaa82e2dab20.jpeg"
   },
   {
     "name": "Galaxy S21 Ultra",
     "category": "Flagship",
     "brand": "Samsung",
-    "price": 90000,
+    "price": 120000,
     "storage": "512GB",
-    "battery": "5000mAh"
+    "battery": "5000mAh",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s21-ultra-5g-.jpg"
   },
   {
     "name": "Galaxy A52",
     "category": "Mid-range",
     "brand": "Samsung",
-    "price": 15000,
+    "price": 35000,
     "storage": "128GB",
-    "battery": "4500mAh"
+    "battery": "4500mAh",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB5dKKYXPGHYQpH6CrhthrBRa6MTGo7Iw9-A&s"
   },
   {
     "name": "Galaxy A72",
     "category": "Mid-range",
     "brand": "Samsung",
-    "price": 28000,
+    "price": 40000,
     "storage": "256GB",
-    "battery": "5000mAh"
+    "battery": "5000mAh",
+    "image": "https://i5.walmartimages.com/seo/Like-New-Samsung-Galaxy-S21-5G-128GB-G996U-Unlocked_f0f2c7a0-98ac-46b2-89cf-dd1d1fafa23f.b6c68016f133a95c38cddaa82e2dab20.jpeg"
   },
   {
     "name": "Galaxy M31",
     "category": "Budget",
     "brand": "Samsung",
-    "price": 50000,
+    "price": 24000,
     "storage": "128GB",
-    "battery": "6000mAh"
+    "battery": "6000mAh",
+    "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s21-ultra-5g-.jpg"
   },
   {
     "name": "Galaxy M51",
     "category": "Budget",
     "brand": "Samsung",
-    "price": 10000,
+    "price": 30000,
     "storage": "128GB",
-    "battery": "7000mAh"
+    "battery": "7000mAh",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB5dKKYXPGHYQpH6CrhthrBRa6MTGo7Iw9-A&s"
   },
   {
     "name": "Galaxy Z Fold 3",
     "category": "Foldable",
     "brand": "Samsung",
-    "price": 120999,
+    "price": 195000,
     "storage": "256GB",
-    "battery": "4400mAh"
+    "battery": "4400mAh",
+    "image": "https://i5.walmartimages.com/seo/Open-Box-Samsung-Galaxy-Z-Fold-3-5G-256GB-Factory-Unlocked-Cellphone_c4b5f977-8ce9-4ca2-a3fc-bbef608b387d.1b04df12149ef68359f78b52d8c88dc6.jpeg"
   },
   {
     "name": "Galaxy Z Flip 3",
     "category": "Foldable",
     "brand": "Samsung",
-    "price": 10000,
+    "price": 130000,
     "storage": "128GB",
-    "battery": "3300mAh"
+    "battery": "3300mAh",
+    "image": "https://images-cdn.ubuy.co.in/655d3f7066159151ac63d295-samsung-galaxy-z-flip-3-5g-128gb.jpg"
   },
   {
     "name": "Galaxy Note 20",
     "category": "Flagship",
     "brand": "Samsung",
-    "price": 49000,
+    "price": 110000,
     "storage": "256GB",
-    "battery": "4300mAh"
+    "battery": "4300mAh",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRlePS2WpVrjbDyo0uUzSBMaGNvvfA5Z2YWQ&s"
   },
   {
     "name": "iPhone 12",
     "category": "Flagship",
     "brand": "Apple",
-    "price": 90000,
+    "price": 120000,
     "storage": "64GB",
-    "battery": "2815mAh"
+    "battery": "2815mAh",
+    "image": "https://adminapi.applegadgetsbd.com/storage/media/large/2445-37576.jpg"
   },
   {
     "name": "iPhone 12 Mini",
     "category": "Compact",
     "brand": "Apple",
-    "price": 80000,
+    "price": 100000,
     "storage": "64GB",
-    "battery": "2227mAh"
+    "battery": "2227mAh",
+    "image": "https://adminapi.applegadgetsbd.com/storage/media/large/2445-37576.jpg"
   },
   {
     "name": "iPhone 12 Pro",
     "category": "Flagship",
     "brand": "Apple",
-    "price": 96000,
+    "price": 140000,
     "storage": "128GB",
-    "battery": "2815mAh"
+    "battery": "2815mAh",
+    "image": "https://www.mobiledokan.co/wp-content/uploads/2020/07/Apple-iPhone-12-Pro-Graphite-500x500.jpg"
   },
   {
     "name": "iPhone 12 Pro Max",
     "category": "Flagship",
     "brand": "Apple",
-    "price": 98000,
+    "price": 150000,
     "storage": "128GB",
-    "battery": "3687mAh"
+    "battery": "3687mAh",
+    "image": "https://example.com/iphone_12_pro_max.jpg"
   },
   {
     "name": "iPhone SE (2020)",
     "category": "Budget",
     "brand": "Apple",
-    "price": 67000,
+    "price": 60000,
     "storage": "64GB",
-    "battery": "1821mAh"
+    "battery": "1821mAh",
+    "image": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_new-iphone-se-white_04152020_big.jpg.large.jpg"
   },
   {
     "name": "iPhone 11",
@@ -124,198 +140,178 @@
     "brand": "Apple",
     "price": 70000,
     "storage": "64GB",
-    "battery": "3110mAh"
+    "battery": "3110mAh",
+    "image": "https://adminapi.applegadgetsbd.com/storage/media/large/2445-37576.jpg"
   },
   {
     "name": "iPhone XR",
     "category": "Mid-range",
     "brand": "Apple",
-    "price": 50000,
+    "price": 65000,
     "storage": "64GB",
-    "battery": "2942mAh"
+    "battery": "2942mAh",
+    "image": "https://cdn.new-brz.net/app/public/models/MRYA2RM-A/large/w/190611160013049330.webp"
   },
   {
     "name": "iPhone 11 Pro",
     "category": "Flagship",
     "brand": "Apple",
-    "price": 89000,
+    "price": 110000,
     "storage": "64GB",
-    "battery": "3046mAh"
+    "battery": "3046mAh",
+    "image": "https://adminapi.applegadgetsbd.com/storage/media/large/2445-37576.jpg"
   },
   {
     "name": "iPhone 11 Pro Max",
     "category": "Flagship",
     "brand": "Apple",
-    "price": 100000,
+    "price": 130000,
     "storage": "64GB",
-    "battery": "3969mAh"
+    "battery": "3969mAh",
+    "image": "https://i.ebayimg.com/images/g/e3UAAOSwgPReNsmD/s-l500.jpg"
   },
   {
-    "name": "iPhone 13",
+    "name": "iPhone 15 pro max",
     "category": "Flagship",
     "brand": "Apple",
-    "price": 120000,
+    "price":  145000,
     "storage": "128GB",
-    "battery": "3227mAh"
+    "battery": "3227mAh",
+    "image": "https://images-cdn.ubuy.co.id/65c9809c76c8e0726937b1a2-restored-apple-iphone-15-pro-max-256gb.jpg"
   },
   {
     "name": "Pixel 5",
     "category": "Flagship",
     "brand": "Google",
-    "price": 10000,
+    "price": 95000,
     "storage": "128GB",
-    "battery": "4080mAh"
+    "battery": "4080mAh",
+    "image": "https://www.mobiledokan.co/wp-content/uploads/2020/07/Google-Pixel-5-Green-500x500.jpg"
   },
   {
     "name": "Pixel 4a",
     "category": "Budget",
     "brand": "Google",
-    "price": 10000,
+    "price": 30000,
     "storage": "128GB",
-    "battery": "3140mAh"
+    "battery": "3140mAh",
+    "image": "https://www.mobiledokan.co/wp-content/uploads/2020/07/Google-Pixel-5-Green-500x500.jpg"
   },
   {
     "name": "Pixel 4a 5G",
     "category": "Mid-range",
     "brand": "Google",
-    "price": 10000,
+    "price": 55000,
     "storage": "128GB",
-    "battery": "3885mAh"
+    "battery": "3885mAh",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRejs3T_zt9R_MsSKBeX9WwOxCRfjIShH3Z9A&s"
   },
   {
     "name": "Pixel 6",
     "category": "Flagship",
     "brand": "Google",
-    "price": 10000,
+    "price": 110000,
     "storage": "128GB",
-    "battery": "4614mAh"
+    "battery": "4614mAh",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSOjhKH9ZT6cm_mDjhEKxWfq5Vw69SGA6IZw&s"
   },
   {
     "name": "Pixel 6 Pro",
     "category": "Flagship",
     "brand": "Google",
-    "price": 10000,
+    "price": 130000,
     "storage": "128GB",
-    "battery": "5003mAh"
+    "battery": "5003mAh",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSOjhKH9ZT6cm_mDjhEKxWfq5Vw69SGA6IZw&s"
   },
   {
     "name": "Pixel 5a 5G",
     "category": "Mid-range",
     "brand": "Google",
-    "price": 10000,
+    "price": 65000,
     "storage": "128GB",
-    "battery": "4680mAh"
+    "battery": "4680mAh",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSaduGz8bjKMq_DSJ5Q2sNgmV_6HwCyk-qSw&s"
   },
   {
     "name": "Pixel 3 XL",
     "category": "Mid-range",
     "brand": "Google",
-    "price": 10000,
+    "price": 50000,
     "storage": "64GB",
-    "battery": "3430mAh"
+    "battery": "3430mAh",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSaduGz8bjKMq_DSJ5Q2sNgmV_6HwCyk-qSw&s"
   },
   {
     "name": "Pixel 4 XL",
     "category": "Flagship",
     "brand": "Google",
-    "price": 10000,
+    "price": 90000,
     "storage": "64GB",
-    "battery": "3700mAh"
+    "battery": "3700mAh",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSaduGz8bjKMq_DSJ5Q2sNgmV_6HwCyk-qSw&s"
   },
   {
     "name": "Pixel 3a",
     "category": "Budget",
     "brand": "Google",
-    "price": 10000,
+    "price": 25000,
     "storage": "64GB",
-    "battery": "3000mAh"
-  },
-  {
-    "name": "Pixel 4",
-    "category": "Compact",
-    "brand": "Google",
-    "price": 10000,
-    "storage": "64GB",
-    "battery": "2800mAh"
-  },
-  {
-    "name": "OnePlus 9",
-    "category": "Flagship",
-    "brand": "OnePlus",
-    "price": 10000,
-    "storage": "128GB",
-    "battery": "4500mAh"
-  },
-  {
-    "name": "OnePlus 9 Pro",
-    "category": "Flagship",
-    "brand": "OnePlus",
-    "price": 10000,
-    "storage": "256GB",
-    "battery": "4500mAh"
-  },
-  {
-    "name": "OnePlus Nord",
-    "category": "Mid-range",
-    "brand": "OnePlus",
-    "price": 10000,
-    "storage": "128GB",
-    "battery": "4115mAh"
-  },
-  {
-    "name": "OnePlus 8T",
-    "category": "Flagship",
-    "brand": "OnePlus",
-    "price": 10000,
-    "storage": "128GB",
-    "battery": "4500mAh"
-  },
-  {
-    "name": "OnePlus 7T",
-    "category": "Mid-range",
-    "brand": "OnePlus",
-    "price": 10000,
-    "storage": "128GB",
-    "battery": "3800mAh"
-  },
-  {
-    "name": "OnePlus 7 Pro",
-    "category": "Flagship",
-    "brand": "OnePlus",
-    "price": 10000,
-    "storage": "256GB",
-    "battery": "4000mAh"
-  },
-  {
-    "name": "OnePlus 6T",
-    "category": "Mid-range",
-    "brand": "OnePlus",
-    "price": 10000,
-    "storage": "128GB",
-    "battery": "3700mAh"
+    "battery": "3000mAh",
+    "image": "https://m.media-amazon.com/images/I/61eQRrP5STL._AC_SL1000_.jpg"
   },
   {
     "name": "OnePlus 8 Pro",
     "category": "Flagship",
     "brand": "OnePlus",
-    "price": 10000,
-    "storage": "256GB",
-    "battery": "4510mAh"
+    "price": 95000,
+    "storage": "128GB",
+    "battery": "4510mAh",
+    "image": "https://cdn.opstatics.com/store/20170907/assets/images/events/instant-noodle/19811/kv/kv-mo.webp"
   },
   {
-    "name": "OnePlus Nord 2",
+    "name": "OnePlus 8T",
+    "category": "Flagship",
+    "brand": "OnePlus",
+    "price": 70000,
+    "storage": "128GB",
+    "battery": "4500mAh",
+    "image": "https://cdn.opstatics.com/store/20170907/assets/images/events/instant-noodle/19811/kv/kv-mo.webp"
+  },
+  {
+    "name": "OnePlus 9",
+    "category": "Flagship",
+    "brand": "OnePlus",
+    "price": 90000,
+    "storage": "128GB",
+    "battery": "4500mAh",
+    "image": "https://m.media-amazon.com/images/I/81ZEdtYBYfL._AC_SL1500_.jpg"
+  },
+  {
+    "name": "OnePlus 9 Pro",
+    "category": "Flagship",
+    "brand": "OnePlus",
+    "price": 105000,
+    "storage": "256GB",
+    "battery": "4500mAh",
+    "image": "https://www.shopz.com.bd/wp-content/uploads/2021/11/Oneplus-9-Pro-12-256.jpg"
+  },
+  {
+    "name": "OnePlus 7T",
     "category": "Mid-range",
     "brand": "OnePlus",
-    "price": 10000,
+    "price": 50000,
     "storage": "128GB",
-    "battery": "4500mAh"
+    "battery": "3800mAh",
+    "image": "https://www.mobiledokan.com/media/oneplus-7t-frosted-silver-official-image.webp"
   },
   {
-    "name": "OnePlus Nord CE",
-    "category": "Budget",
+    "name": "OnePlus Nord",
+    "category": "Mid-range",
     "brand": "OnePlus",
-    "price": 10000,
+    "price": 45000,
     "storage": "128GB",
-    "battery": "4500mAh"
+    "battery": "4115mAh",
+    "image": "https://www.mobiledokan.com/media/oneplus-7t-frosted-silver-official-image.webp"
   }
 ]
