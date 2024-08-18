@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 const Searching = () => {
     const [data,setData] = useState([])
     useEffect(()=>{
-        axios.get('http://localhost:5000/books')
+        axios.get('https://book-server-orpin.vercel.app/books')
         .then(res=>{
             setData(res.data)
         })

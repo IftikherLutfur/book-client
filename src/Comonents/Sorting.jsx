@@ -6,7 +6,7 @@ import FilterCard from "./FilterCard";
 const Sorting = () => {
     const [product, setProduct] = useState([]);
     
-    axios.get('http://localhost:5000/books')
+    axios.get('https://book-server-orpin.vercel.app/books')
     .then(res=>{
         setProduct(res.data);
     })

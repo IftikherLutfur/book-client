@@ -40,7 +40,7 @@ const Register = () => {
     return (
         <div>
             <div className="mx-96 my-5 p-8 space-y-3 rounded-xl dark:bg-gray-50 dark:text-gray-800">
-	<h1 className="text-2xl font-bold text-center">Login</h1>
+	<h1 className="text-2xl font-bold text-center">Register</h1>
 	<form onSubmit={handleForRegister} className="space-y-6">
 		<div className="space-y-1 text-sm">
 			<label htmlFor="name" className="block dark:text-gray-600">Name</label>
@@ -57,7 +57,7 @@ const Register = () => {
 				<a rel="noopener noreferrer" href="#">Forgot Password?</a>
 			</div>
 		</div>
-		<button className="block w-full p-3 text-center rounded-sm dark:text-gray-50 dark:bg-violet-600">Sign in</button>
+		<button className="block w-full p-3 text-center rounded-sm dark:text-gray-50 dark:bg-violet-600">Sign Up</button>
 	</form>
 	<div className="flex items-center pt-4 space-x-1">
 		<div className="flex-1 h-px sm:w-16 dark:bg-gray-300"></div>
