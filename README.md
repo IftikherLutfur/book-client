@@ -26,5 +26,4 @@ Efficient Sorting: Allows users to sort data based on different attributes, prov
 User Authentication: Firebase Authentication is used to manage user sign-ups, logins, and security.
 Responsive Design: The application is fully responsive, ensuring a seamless experience across different devices and screen sizes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Link: https://mobile-phone-8b372.web.app/
