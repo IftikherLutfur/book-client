@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import FilterCard from "./FilterCard";
+import Navbar from "./Shared/Navbar"
 
 const Homies = () => {
     const [phone,setPhone] = useState([]);
@@ -25,6 +26,7 @@ const Homies = () => {
         <div>
             {/* <Sorting/> */}
             {/* <Searching/> */}
+            <Navbar/>
             <div>
                 <form onChange={(e)=> setQuery(e.target.value)}>
                     <div className="flex gap-2 my-4 lg:mx-10">

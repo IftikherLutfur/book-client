@@ -4,6 +4,7 @@ import axios from "axios";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
 import FilterCard from "./FilterCard";
+import Navbar from "./Shared/Navbar";
 
 
 
@@ -53,6 +54,7 @@ const Home = () => {
 
     return (
         <div>
+          <Navbar/>
           {/* <div>
           <h1>Search Books by Name</h1>
       <input

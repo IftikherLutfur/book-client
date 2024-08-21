@@ -2,6 +2,7 @@ import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import FilterCard from "./FilterCard";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import Navbar from "./Shared/Navbar";
 
 const Brands = () => {
 
@@ -21,6 +22,7 @@ const Brands = () => {
     const google = phone.filter(bok=>bok.brand === 'Google')
     return (
         <div>
+          <Navbar/>
              <Tabs>
     <TabList>
       <h1 className="text-center font-bold text-xl">Brands</h1>

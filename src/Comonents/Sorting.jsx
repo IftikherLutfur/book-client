@@ -2,6 +2,7 @@ import axios from "axios";
 import { useState } from "react";
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import FilterCard from "./FilterCard";
+import Navbar from "./Shared/Navbar";
 
 const Sorting = () => {
     const [product, setProduct] = useState([]);
@@ -16,7 +17,7 @@ const Sorting = () => {
     
     return (
         <div >
-       
+       <Navbar/>
        <Tabs>
         <TabList>
             <div className="flex ml-10 gap-5">
