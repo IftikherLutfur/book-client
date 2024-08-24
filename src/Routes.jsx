@@ -10,7 +10,7 @@ import Sorting from './Comonents/Sorting'
 
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/", 
       element: <Root/>,
       children:[
         {
