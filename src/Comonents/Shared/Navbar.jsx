@@ -1,7 +1,16 @@
-import { NavLink } from "react-router-dom";
+import { useContext } from "react";
+import { NavLink, useNavigate } from "react-router-dom";
+import { AuthContext } from "../Authentication/AuthProvider";
 
 
 const Navbar = () => {
+	const {logOut} = useContext(AuthContext)
+	const navigate = useNavigate();
+
+	const singingOut = () =>{
+		logOut()
+		navigate('/')
+	}
     return (
         <div>
         <header className="p-4 dark:bg-gray-100 dark:text-gray-800">
@@ -23,6 +32,9 @@ const Navbar = () => {
 				<NavLink to='/Sorting'><a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 dark:border-">Price Range</a></NavLink>
 			</li>
 		</ul>
+	
+				<a onClick={singingOut} rel="noopener noreferrer" href="#" className="flex text-orange-600 font-semibold lg:ml-48 items-center dark:border-">Log Out</a>
+
 		
 		<button title="Button" type="button" className="p-4 md:hidden">
 		<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6 dark:text-gray-800">

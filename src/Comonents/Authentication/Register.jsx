@@ -40,6 +40,7 @@ const Register = () => {
 	const handleGoogle = (e)=>{
 		e.preventDefault()
 		googleLogin()
+		navigate('/home')
 
 		
 	}
