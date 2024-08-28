@@ -48,7 +48,8 @@ const Homies = () => {
             </div>
             <div className='mx-10 gap-5 grid lg:grid-cols-3 md:grid-cols-2'>
      {phone.filter((mobile)=>mobile.name.includes(query)).map(title=><FilterCard key={title._id} title={title}/>)}
-      </div>
+      </div> 
+     
         </div>
     );
 };

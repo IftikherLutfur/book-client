@@ -1,3 +1,5 @@
+import { useState } from "react";
+import Pagination from "./Pagination";
 
 
 const FilterCard = ({ title }) => {
@@ -23,6 +25,7 @@ const FilterCard = ({ title }) => {
                     </div>
                 </div>
             </div>
+            
         </div>
     );
 };

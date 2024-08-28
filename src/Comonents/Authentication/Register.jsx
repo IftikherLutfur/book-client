@@ -3,10 +3,11 @@ import { AuthContext } from "./AuthProvider";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { toast } from "react-toastify";
+import Swal from "sweetalert2";
 
 const Register = () => {
 
-	const {signUp,  googleLogin} = useContext(AuthContext)
+	const {signUp,  googleLogin, user} = useContext(AuthContext)
 	const navigate = useNavigate();
 	const handleForRegister = (e)=>{
 		e.preventDefault()
@@ -23,13 +24,7 @@ const Register = () => {
 			console.log(result.user);
 			navigate('/home')
 			toast.success('Successfully toasted!')
-		 axios.post('https://book-server-orpin.vercel.app/info', info)
-		 .then(res=>{
-			console.log(res.data);
-		 })
-		 .catch(error=>{
-			console.log(error);
-		 })
+		
 		})
 		.catch(error=>{
 			console.log(error);
@@ -40,7 +35,18 @@ const Register = () => {
 	const handleGoogle = (e)=>{
 		e.preventDefault()
 		googleLogin()
-		navigate('/home')
+		axios.post('https://book-server-orpin.vercel.app/info', user)
+		.then(res=>{
+		   console.log(res.data);
+		   if(res.data){
+			Swal.fire("Login successful");
+			navigate('/home')
+			
+		   }
+		})
+		.catch(error=>{
+		   console.log(error);
+		})
 
 		
 	}
